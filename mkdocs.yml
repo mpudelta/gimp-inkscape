@@ -1,0 +1,23 @@
+site_name: 'GIMP и Inkscape'
+site_description: 'Электронное учебно-методическое пособие «GIMP и Inkscape»'
+copyright: '© Р. П. Борисов и другие'
+repo_url: 'https://github.com/mpudelta/gimp-inkscape'
+repo_name: 'GitHub'
+pages:
+  - Аннотация: 'index.md'
+  - Введение: 'introduction.md'
+  - Раздел 1. GIMP:
+    - Глава 1.1: 'gimp/1.md'
+  - Раздел 2. Inkscape:
+    - Глава 2.1: 'inkscape/1.md'
+  - Заключение: 'conclusion.md'
+  - Список литературы: 'bibliography.md'
+theme:
+  name: 'material'
+  language: 'ru'
+  palette:
+    primary: 'green'
+    accent: 'lightblue'
+  font:
+    text: 'Verdana'
+    code: 'Lucida Console'
