@@ -1,0 +1,23 @@
+language: python
+python:
+- '3.6'
+before_install:
+- set -e
+- eval "$(ssh-agent -s)"
+- openssl aes-256-cbc -K $encrypted_2c8bc4d8982a_key -iv $encrypted_2c8bc4d8982a_iv
+  -in id_rsa.enc -out ~/.ssh/id_rsa -d
+- chmod 600 ~/.ssh/id_rsa
+- ssh-add ~/.ssh/id_rsa
+install:
+- pip install mkdocs
+script:
+- mkdocs build
+deploy:
+  provider: pages
+  local-dir: site
+  skip-cleanup: true
+  keep-history: true
+  verbose: true
+  github-token: $GITHUB_TOKEN
+  on:
+    branch: master
