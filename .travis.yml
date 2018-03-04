@@ -5,6 +5,7 @@ before_install:
 - openssl aes-256-cbc -K $encrypted_2c8bc4d8982a_key -iv $encrypted_2c8bc4d8982a_iv -in .travis-secret.enc -out .travis-secret -d
 install:
 - pip install mkdocs
+- pip install mkdocs-material
 script:
 - mkdocs build
 deploy:
