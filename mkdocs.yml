@@ -6,10 +6,10 @@ repo_name: 'GitHub'
 pages:
   - Аннотация: 'index.md'
   - Введение: 'introduction.md'
-  - Раздел 1. GIMP:
-    - Глава 1.1: 'gimp/1.md'
-  - Раздел 2. Inkscape:
-    - Глава 2.1: 'inkscape/1.md'
+  - Часть 1. GIMP:
+    - Глава 1. Знакомство с GIMP: 'gimp/1.md'
+  - Часть 2. Inkscape:
+    - Глава 1. Знакомство с Inkscape: 'inkscape/1.md'
   - Заключение: 'conclusion.md'
   - Список литературы: 'bibliography.md'
 theme:
