@@ -10,9 +10,9 @@
 
 - [Аннотация](docs/index.md)
 - [Введение](docs/introduction.md)
-- Раздел 1. GIMP
-  - [Глава 1.1](docs/gimp/1.md)
-- Раздел 2. Inkscape
-  - [Глава 2.1](docs/inkscape/1.md)
+- Часть 1. GIMP
+  - [Глава 1. Знакомство с GIMP](docs/gimp/1.md)
+- Часть 2. Inkscape
+  - [Глава 1. Знакомство с Inkscape](docs/inkscape/1.md)
 - [Заключение](docs/conclusion.md)
 - [Список литературы](docs/bibliography.md)
