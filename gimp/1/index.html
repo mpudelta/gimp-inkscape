@@ -439,6 +439,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#_17" title="Справка" class="md-nav__link">
+    Справка
+  </a>
+  
+</li>
+      
       
       
       
@@ -665,6 +672,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#_17" title="Справка" class="md-nav__link">
+    Справка
+  </a>
+  
+</li>
+      
       
       
       
@@ -689,13 +703,56 @@
 <h2 id="_1">Установка</h2>
 <p>Последняя стабильная версия приложения может быть найдена на <a href="https://www.gimp.org/">официальном сайте GIMP</a>. Перейдём в раздел <a href="https://www.gimp.org/downloads/">«Downloads»</a>.</p>
 <p><img alt="Страница загрузки" src="../img/download-page.png" /></p>
-<p>Здесь вам будет предложено загрузить GIMP для операционной системы, запущенной на вашем компьютере.</p>
+<p>Здесь вам будет предложено загрузить программу установки GIMP для операционной системы, запущенной на вашем компьютере.</p>
 <ol>
 <li>Нажмите на надпись в оранжевом блоке.</li>
 <li>Запустите программу установки.</li>
 <li>Нажмите «Установить».</li>
-<li>По желанию установите предлагаемую на странице справку на русском языке (<code>Russian (∀ MB)</code>) для внутренней помощи по программе без дальнейшего подключения к сети Интернет.</li>
+<li>По желанию установите предлагаемую на странице справку на русском языке (<code>Russian (∀ MB)</code>) для внутренней помощи по программе без дальнейшего подключения к сети Интернет. <a href="https://www.gimp.org/docs/">Документация</a>.</li>
 </ol>
+<p>Стоит отметить, что минимальные системные требования редактора для наших учебных целей весьма демократичные:</p>
+<table>
+<thead>
+<tr>
+<th>Характеристика</th>
+<th>Минимум</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Платформы</td>
+<td>GNU/Linux, macOS, Windows и пр.</td>
+</tr>
+<tr>
+<td>Разрядность</td>
+<td>x86, x64</td>
+</tr>
+<tr>
+<td>Процессор</td>
+<td>Intel Pentium III или эквивалент</td>
+</tr>
+<tr>
+<td>Оперативная память</td>
+<td>512 МБ</td>
+</tr>
+<tr>
+<td>Свободное место на диске</td>
+<td>(200 ± 75) МБ</td>
+</tr>
+<tr>
+<td>Видеоадаптер</td>
+<td>любой с поддержкой 3D</td>
+</tr>
+<tr>
+<td>Видеопамять</td>
+<td>64 МБ</td>
+</tr>
+<tr>
+<td>Разрешение экрана</td>
+<td>1024×768</td>
+</tr>
+</tbody>
+</table>
 <p>На первый запуск может понадобиться некоторое время.</p>
 <h2 id="_2">Быстрая загрузка</h2>
 <p><img alt="Загрузка" src="../img/loading.png" /></p>
@@ -719,8 +776,8 @@
 <p>Открытую на панели вкладку можно удалить, выбрав <strong><code>Закрыть вкладку</code></strong></p>
 <h2 id="_6">Изображение</h2>
 <p>Если вы хотите создать новое изображение: нажмите <code>Ctrl + N</code> или выберите пункт меню <strong><code>Файл → Создать</code></strong>, во всплывающем окне задайте параметры. Размеры, разрешение и фон изображения, в основном, зависят от контекста, в котором оно используется.</p>
-<p>Например, если вы создаёте переиспользуемую графику, вам больше понравится наличие альфа-канала на фоне, а потому параметр «<strong>Заполнение</strong>» будет у вас иметь значение <strong><code>Прозрачный слой</code></strong>.</p>
-<p>Разрешение по осям устанавливается, исходя из требований, предъявляемых к печатному макету: допустим, 300 пикс/дюйм. Если же изображение разрабатывается для электронных носителей информации, то ему часто дают 72 или 96 пикс/дюйм, а размерная разница в их отображении на электронных устройствах отсутствует.</p>
+<p>Например, если вы создаёте переиспользуемую графику, вам больше понравится наличие альфа-канала на фоне, а потому параметр «<strong>Заполнение</strong>» будет у вас иметь значение <strong><code>Прозрачный слой</code></strong>, и размер ― чем больше, тем лучше.</p>
+<p>Разрешение по осям устанавливается, исходя из требований, предъявляемых к печатному макету: допустим, 300 пикс/дюйм. Если же изображение разрабатывается для электронных носителей информации, то ему часто дают 72 или 96 пикс/дюйм, а разница их отображения, как правило, в обозревателях отсутствует, потому что разрешение в них не учитывается.</p>
 <p><img alt="Создать новое изображение" src="../img/hd-96ppi-white.png" /></p>
 <p>На снимке приведены параметры HD изображения с белым фоном. Будем использовать его для проверки простых инструментов.</p>
 <h3 id="_7">Шаблон создания</h3>
@@ -762,6 +819,21 @@
 <p>Инструмент, который перемещает объект, находяйщийся под курсором. Тип объекта задаётся в параметрах: слой, выделение, контур.</p>
 <p><img alt="Использование перемещения" src="../img/move-intro.gif" /></p>
 <p>Удерживайте <code>Shift</code>, чтобы перемещать активный объект (выделенный в соответствующей вкладке) вне зависимости от того, находится ли он под курсором.</p>
+<p><code>Shift+Alt</code> позволяет создать плавающее выделение из текущего слоя.</p>
+<h2 id="_17">Справка</h2>
+<ul>
+<li>
+<p>Если вы установили <a href="https://www.gimp.org/docs/">руководство пользователя</a> на свой компьютер, вы можете воспользоваться помощью по GIMP без подключения к сети Интернет.</p>
+</li>
+<li>
+<p>Если вы этого не делали, просмотрщик справки GIMP открывает онлайн-руководство.</p>
+</li>
+</ul>
+<p>Наши тесты показали, что в последних версиях расширение «Просмотрщик справки GIMP» может работать неустойчиво. Поэтому очень советуем вам добавить в закладки своего веб-браузера:</p>
+<ul>
+<li><strong><a href="https://docs.gimp.org/ru/">GNU Image Manipulation Program. Руководство пользователя</a></strong>.</li>
+</ul>
+<p>Если «Просмотрщик справки GIMP» работает хорошо на вашем компьютере, он позволит открыть контекстную помощь <em>по наведённому пункту меню, инструменту или окну при нажатии <code>F1</code></em>. В боковом меню можно переключиться на другой раздел справки.</p>
                 
                   
                 
@@ -819,7 +891,7 @@
       <div class="md-footer-copyright">
         
           <div class="md-footer-copyright__highlight">
-            <table><tr><td><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Лицензия Creative Commons" style="border-width:0;max-width:88px" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><a href="https://github.com/mpudelta"><img alt="MPUDelta" style="border-width:0" src="https://avatars2.githubusercontent.com/u/36784205?s=200&v=4" /></a></td><td style="vertical-align:middle"><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">Электронное учебно-методическое пособие «GIMP и Inkscape»</span>, созданное командой <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/mpudelta" property="cc:attributionName" rel="cc:attributionURL">MPUDelta</a>, публикуется на условиях <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">лицензии Creative Commons С указанием авторства-Некоммерческая-С сохранением условий 4.0 Всемирная</a>.</td></tr></table>
+            <table><tr><td><a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ru" target="_blank"><img alt="Лицензия Creative Commons" style="border-width: 0; max-width: 88px;" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><a href="https://github.com/mpudelta" target="_blank"><img alt="MPUDelta" style="border-width: 0; max-width: 88px;" src="https://avatars2.githubusercontent.com/u/36784205?s=200&v=4" /></a></td><td style="vertical-align:middle"><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">Электронное учебно-методическое пособие «GIMP и Inkscape»</span>, созданное командой <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/mpudelta" property="cc:attributionName" rel="cc:attributionURL" target="_blank">MPUDelta</a>, публикуется на условиях <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ru" target="_blank">лицензии Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</a>.</td></tr></table>
           </div>
         
         powered by
