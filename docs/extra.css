@@ -1,0 +1,10 @@
+.md-typeset code {
+	box-shadow: 0.3em 0 0 hsla(0, 0%, 80%, .5), -0.3em 0 0 hsla(0, 0%, 80%, .5);
+	text-shadow: 0 .05em #fff;
+	background-color: hsla(0, 0%, 80%, .5);
+	font-size: 100%;
+}
+
+video {
+	max-width: 100%;
+}
