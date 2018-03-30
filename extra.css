@@ -1,3 +1,15 @@
+.md-nav--primary .md-nav__item--nested > .md-nav__link {
+	font-weight: bold;
+}
+
+.md-nav--secondary a[title^="📝"] {
+	font-weight: bold;
+}
+
+.md-typeset h1, .md-typeset h2 {
+	text-align: center;
+}
+
 .md-typeset code {
 	box-shadow: 0.3em 0 0 hsla(0, 0%, 80%, .5), -0.3em 0 0 hsla(0, 0%, 80%, .5);
 	text-shadow: 0 .05em #fff;
@@ -5,6 +17,24 @@
 	font-size: 100%;
 }
 
-video {
+.md-typeset__scrollwrap {
+	text-align: center;
+}
+
+.md-typeset p > img, .md-typeset video {
+	display: block;
+	margin: 0 auto;
 	max-width: 100%;
+}
+
+.md-typeset .colorBox {
+	display: inline-block;
+	padding-top: 8px;
+}
+.md-typeset .colorBox code {
+	background-color: hsla(0, 0%, 80%, 1);
+}
+
+.md-content__inner h2:last-of-type {
+	font-weight: bold;
 }
