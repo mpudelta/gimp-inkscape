@@ -24,3 +24,5 @@ theme:
     code: 'Lucida Console'
 extra_css:
   - extra.css
+extra_javascript:
+  - extra.js
