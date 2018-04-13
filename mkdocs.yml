@@ -9,6 +9,7 @@ pages:
   - Часть 1. GIMP:
     - Глава 1. Знакомство с GIMP: 'gimp/1.md'
     - Глава 2. Цвета: 'gimp/2.md'
+    - Глава 2. Слои: 'gimp/3.md'
   - Часть 2. Inkscape:
     - Глава 1. Знакомство с Inkscape: 'inkscape/1.md'
   - Заключение: 'conclusion.md'
