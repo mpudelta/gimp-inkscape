@@ -14,6 +14,7 @@
   - [Глава 1. Знакомство с GIMP](docs/gimp/1.md)
   - [Глава 2. Цвета](docs/gimp/2.md)
   - [Глава 3. Слои](docs/gimp/3.md)
+  - [Глава 4. <Название>](docs/gimp/4.md)
 - Часть 2. Inkscape
   - [Глава 1. Знакомство с Inkscape](docs/inkscape/1.md)
 - [Заключение](docs/conclusion.md)
